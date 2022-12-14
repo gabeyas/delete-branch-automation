@@ -1,3 +1,3 @@
 # delete-branch-automation
 
-* from feature_1
+* from feature_2
