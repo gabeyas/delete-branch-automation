@@ -1,3 +1,3 @@
 # delete-branch-automation
 
-* from stag
+* from feature_4
