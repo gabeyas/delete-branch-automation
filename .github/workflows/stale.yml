@@ -15,10 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
+      contents: write
 
     steps:
     - uses: actions/stale@v5
       with:
+        delete-branch: true
         days-before-stale: 1
         days-before-close: 1
         exempt-pr-labels: 'wip'
